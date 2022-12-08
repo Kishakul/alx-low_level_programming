@@ -1,2 +1,3 @@
-#!/bib/bash
-gcc -C $CFILE
+#!/bin/bash
+gcc -c $CFILE
+
