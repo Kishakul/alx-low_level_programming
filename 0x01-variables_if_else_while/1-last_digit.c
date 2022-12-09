@@ -4,7 +4,7 @@
 
 /**
 * main - The main program will assign a random number to n
-* Return: 0 if the last digit string of n is zero, print otherwise if not
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -13,7 +13,7 @@ int num;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
- printf("last digit of %d, is %d", n, n % 10);
+printf("Last digit of %d is %d", n);
 num = n % 10;
 if (num > 5)
 printf("%d and is greater than 5\n", num);
