@@ -13,10 +13,10 @@ for (d = '0'; d <= '9'; ++d)
 {
 for (n = '0'; n <= '9'; ++n)
 {
-if (!((d == n) || (d > n)))
+if (!((n == d) || (d > n)))
 {
-putchar(n);
 putchar(d);
+putchar(n);
 if (!(n == '9' && d == '8'))
 {
 putchar(',');
