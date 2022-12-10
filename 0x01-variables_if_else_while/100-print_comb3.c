@@ -9,11 +9,11 @@ int main(void)
 {
 int n;
 int d;
-for (n = '0'; n <= '9'; ++n)
-{
 for (d = '0'; d <= '9'; ++d)
 {
-if (!((d == n) || (n > d)))
+for (n = '0'; n <= '9'; ++n)
+{
+if (!((d == n) || (d > n)))
 {
 putchar(n);
 putchar(d);
