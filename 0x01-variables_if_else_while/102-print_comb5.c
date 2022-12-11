@@ -7,22 +7,20 @@
 */
 int main(void)
 {
-int x, y, z;
-int check1, check2;
-for (x = 0; x < 10; x++)
+int x, y;
+for (x = 0; x < 100; x++)
 {
-check1 = x;
-for (y = 0; y < 10; y++)
+for (y = 0; y < 100; y++)
 {
-check2 = y;
-for (z = 0; z < 10; z++)
+if (x < y)
 {
-if (check1 < y && check2 < z)
+putchar((x / 10) + 48);
+putchar((x % 10) + 48);
+putchar(' ');
+putchar((y / 10) + 48);
+putchar((y % 10) + 48);
 {
-putchar(x % 10 + '0');
-putchar(y % 10 + '0');
-putchar(z % 10 + '0');
-if (x != 7)
+if (x != 98 || y != 99)
 {
 putchar(',');
 putchar(' ');
