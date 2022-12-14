@@ -16,7 +16,7 @@ while (x < 60)
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
 _putchar(':');
-_putchar((x + 10) + '0');
+_putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
 _putchar('\n');
 x++;
