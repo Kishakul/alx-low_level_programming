@@ -16,10 +16,12 @@ return;
 for (i = 1; i <= n; i++)
 {
 for (j = 0; j < n; j++)
-_putchar(' ');
+{
+if (j == i)
 _putchar('\\');
-_putchar('\n');
-j = i;
+else if (j < i)
+_putchar(' ');
 }
-return;
+_putchar(' ');
+}
 }
