@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-* fizz_buzz - print number 1 to 100
+* main - print number 1 to 100
 * @n: character to check
 * multiple of three print Fizz instead of a number
 * and a multiple of five print Buzz
 */
-void fizz_buzz(int n)
+void main(int n)
 {
 int c;
 for (c = 1; c <= n; c++)
