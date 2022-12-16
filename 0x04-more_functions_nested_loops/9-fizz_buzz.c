@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+/**
+* fizz_buzz - print number 1 to 100
+* @n: character to check
+* multiple of three print Fizz instead of a number
+* and a multiple of five print Buzz
+*/
+void fizz_buzz(int n)
+{
+int c;
+for (c = 1; c <= n; c++)
+{
+if (c % 3 == 0 && c % 5 == 0)
+{
+printf("FizzBuzz");
+}
+else if (c % 3 == 0)
+{
+printf("Fizz");
+}
+else if (c % 5 == 0)
+{
+printf("Buzz");
+}
+else
+{
+printf("%d", c);
+}
+if (c != n)
+{
+putchar(' ');
+}
+}
+putchar('\n');
+return;
+}
