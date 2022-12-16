@@ -2,14 +2,13 @@
 
 /**
 * main - print number 1 to 100
-* @n: character to check
 * multiple of three print Fizz instead of a number
 * and a multiple of five print Buzz
 */
-void main(int n)
+int main(void)
 {
 int c;
-for (c = 1; c <= n; c++)
+for (c = 1; c <= 100; c++)
 {
 if (c % 3 == 0 && c % 5 == 0)
 {
@@ -27,7 +26,7 @@ else
 {
 printf("%d", c);
 }
-if (c != n)
+if (c != 1)
 {
 putchar(' ');
 }
