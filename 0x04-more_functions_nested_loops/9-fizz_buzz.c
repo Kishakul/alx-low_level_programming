@@ -32,6 +32,6 @@ else
 printf(" %d", c);
 }
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
