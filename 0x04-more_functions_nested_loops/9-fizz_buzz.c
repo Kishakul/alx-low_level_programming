@@ -4,6 +4,7 @@
 * main - print number 1 to 100
 * multiple of three print Fizz instead of a number
 * and a multiple of five print Buzz
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -32,5 +33,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return;
+return (0);
 }
