@@ -12,17 +12,16 @@ _putchar('\n');
 }
 else
 {
-int i, j;
-for (i = 1; i <= size; i++)
-{
-for (j = 1; j < size; j++)
+int i, j, k;
+j = 1;
+for (k = 0; k <= size - j; k++)
 {
 _putchar(' ');
-}
-for (j = 1; j <= i; j++)
+for (i = 0; i < j; i++)
 {
 _putchar('#');
 }
+b++;
 _putchar('\n');
 }
 }
