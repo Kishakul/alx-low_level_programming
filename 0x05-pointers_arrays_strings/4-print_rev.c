@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _rev - reverse a string
-* @s: string to reverse
+* print_rev - print a string in reserve
+* @s: string
 * Return: string in reverse
 */
-void _rev(char *s)
+void print_rev(char *s)
 {
 int i = 0;
 while (s[i] != 0)
