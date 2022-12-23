@@ -57,7 +57,7 @@ i++;
 * @b: string
 * @size: size of buffer
 */
-void print_bufffer(char *b, int size)
+void print_buffer(char *b, int size)
 {
 int start, end;
 if (size > 0)
