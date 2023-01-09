@@ -15,10 +15,10 @@ if (*s == c)
 return (s);
 s++;
 }
-/**
-* if c is '\0'
-* return the pointer to the '\0' 0f the string s
-*/
+  /**
+   * if c is '\0'
+   * return the pointer to the '\0' 0f the string s
+  */
 if (*s == c)
 return (s);
 /*return null if not found*/
